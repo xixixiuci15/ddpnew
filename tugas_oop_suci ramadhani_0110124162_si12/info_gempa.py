@@ -1,0 +1,17 @@
+from Gempa import *
+
+gempaPertama = Gempa(1.2, 'Bandung')
+gempaPertama.dampak()
+print(f'jumlah Gempa {Gempa.jumlahGempa}')
+gempaKedua = Gempa(6.1, 'Palu')
+gempaKedua.dampak()
+print(f'JUmlah Gempa {Gempa.jumlahGempa}')
+gempaKetiga = Gempa(5.6, 'Cianjur')
+gempaKetiga.dampak()
+print(f'jumlah Gempa {Gempa.jumlahGempa}')
+gempaKeempat = Gempa(3.3, 'Jayapura')
+gempaKeempat.dampak()
+print(f'jumlah gempa {Gempa.jumlahGempa}')
+gempaKelima = Gempa(4.0, 'Garut')
+gempaKelima.dampak()
+print(f'JUmlah Gempa {Gempa.jumlahGempa}')
